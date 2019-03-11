@@ -1,12 +1,3 @@
-def countdown(x)
-  while x <= 10 do
-    puts "#{x} SECOND(S)!"
-    x -= 1
-    break if x == 0
-  end
-    return "HAPPY NEW YEAR!"
-end
-
 def countdown_with_sleep(x)
   sleep 5
 end
