@@ -1,5 +1,5 @@
 def countdown_with_sleep(number)
-  sleep 1
+  sleep 0.5
 end
 
 def countdown(number)
