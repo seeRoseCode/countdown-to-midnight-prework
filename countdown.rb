@@ -8,7 +8,7 @@ def countdown(x)
 end
 
 def countdown_with_sleep(x)
-  while x <= 10 do
+  while x <= 5 do
     puts "#{x} SECONDS!"
     x -= 1
     break if x == 0
