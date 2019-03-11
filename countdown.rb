@@ -8,11 +8,14 @@ def countdown(x)
 end
 
 def countdown_with_sleep(x)
+  sleep 5
+end
+
+def countdown_with_sleep(x)
   while x <= 5 do
     puts "#{x} SECONDS!"
+    countdown_with_sleep(5)
     x -= 1
-    sleep(1)
-    break if x == 0
     return "Happy New Year!"
   end
 end
